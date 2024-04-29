@@ -1,0 +1,90 @@
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Globe }  from 'react-feather';
+
+function NavScrollExample() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container fluid>
+        <Navbar.Brand href="#">DUTAFILM</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1">Home</Nav.Link>
+            <NavDropdown title="Genre" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Romance</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Horror</NavDropdown.Item>
+              <NavDropdown.Item href="#action5">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action6">Familiy</NavDropdown.Item>
+              <NavDropdown.Item href="#action7">Drama</NavDropdown.Item>
+              <NavDropdown.Item href="#action8">Comedy</NavDropdown.Item>
+              <NavDropdown.Item href="#action9">Thriller</NavDropdown.Item>
+              <NavDropdown.Item href="#action10">Fantasy</NavDropdown.Item>
+              <NavDropdown.Item href="#action11">Adventure</NavDropdown.Item>
+              <NavDropdown.Item href="#action12">Animation</NavDropdown.Item>
+              <NavDropdown.Item href="#action13">Crime</NavDropdown.Item>
+              <NavDropdown.Item href="#action14">Science Fiction</NavDropdown.Item>
+              <NavDropdown.Item href="#action15">Mystery</NavDropdown.Item>
+            </NavDropdown>
+            <Globe size={20} />
+
+            <NavDropdown title="Negara" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Indonesia</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Japan</NavDropdown.Item>
+              <NavDropdown.Item href="#action5">Philippines</NavDropdown.Item>
+              <NavDropdown.Item href="#action6">Thailand</NavDropdown.Item>
+              <NavDropdown.Item href="#action7">UK</NavDropdown.Item>
+              <NavDropdown.Item href="#action8">USA</NavDropdown.Item>  
+              <NavDropdown.Item href="#action9">Korea</NavDropdown.Item>
+              <NavDropdown.Item href="#action10">China</NavDropdown.Item>
+              <NavDropdown.Item href="#action11">India</NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Tahun" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">2000</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">2001</NavDropdown.Item>
+              <NavDropdown.Item href="#action5">2002</NavDropdown.Item>
+              <NavDropdown.Item href="#action6">2003</NavDropdown.Item>
+              <NavDropdown.Item href="#action7">2004</NavDropdown.Item>
+              <NavDropdown.Item href="#action8">2005</NavDropdown.Item>
+              <NavDropdown.Item href="#action9">2006</NavDropdown.Item>
+              <NavDropdown.Item href="#action10">2007</NavDropdown.Item>
+              <NavDropdown.Item href="#action11">2008</NavDropdown.Item>
+              <NavDropdown.Item href="#action12">2009</NavDropdown.Item>
+              <NavDropdown.Item href="#action13">2010</NavDropdown.Item>
+              <NavDropdown.Item href="#action14">2011</NavDropdown.Item>
+              <NavDropdown.Item href="#action15">2012</NavDropdown.Item>
+              <NavDropdown.Item href="#action16">2013</NavDropdown.Item>
+              <NavDropdown.Item href="#action17">2014</NavDropdown.Item>
+              <NavDropdown.Item href="#action18">2015</NavDropdown.Item>
+              <NavDropdown.Item href="#action19">2016</NavDropdown.Item>
+              <NavDropdown.Item href="#action20">2017</NavDropdown.Item>
+              <NavDropdown.Item href="#action21">2018</NavDropdown.Item>
+              <NavDropdown.Item href="#action22">2019</NavDropdown.Item>
+              <NavDropdown.Item href="#action23">2020</NavDropdown.Item>
+              <NavDropdown.Item href="#action24">2021</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default NavScrollExample;

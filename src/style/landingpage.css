@@ -1,0 +1,43 @@
+.myBG{
+    height: 100vh;
+    background: url("../assets/image/bg/Main.jpeg");
+    background-size: cover;
+}
+
+.intro{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.title{
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
+
+.trending{
+    height: auto;
+    background: url("../assets/image/bg/Scifi.jpeg");
+    background-size: cover;
+}
+
+.superhero{
+    height: auto;
+    background: url("../assets/image/bg/Sapideman.webp");
+    background-size: cover;
+}
+
+.movieImage{
+    height: auto;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;   
+}
+
+.images{
+    height: 500px;
+}
