@@ -10,7 +10,7 @@ import sriasihImage from '../assets/image/super hero/SriAsih.jpeg';
 const SuperHero = () => {
     return (
         <div>
-            <Container>
+            <Container >
                 <br />
                 <h1 className="text-white">SuperHero Movies</h1>
                 <br />  

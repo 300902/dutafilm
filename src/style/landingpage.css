@@ -1,7 +1,45 @@
-.myBG{
+/* .myBG{
     height: 100vh;
     background: url("../assets/image/bg/Main.jpeg");
     background-size: cover;
+
+} */
+
+.page {
+    width: 100%; /* Adjust as needed */
+    height: 900px; /* Adjust as needed */
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.carousel img {
+    width: 100%; /* Adjust as needed */
+    height: 800px; /* Adjust as needed */
+    object-fit: cover;
+    margin: auto;
+}   
+
+.globe{
+    margin-top: 8px;
+}
+
+.home{
+    margin-top: 8px;
+}
+
+.calendar{
+    margin-top: 8px;
+}
+
+.film{
+    margin-top: 8px;
+
 }
 
 .intro{
@@ -11,6 +49,7 @@
     align-items: end;
 }
 
+
 .title{
     font-size: 3em;
     font-weight: 800;
@@ -19,23 +58,26 @@
     letter-spacing: 4px;
 }
 
-.trending{
-    height: auto;
-    background: url("../assets/image/bg/Scifi.jpeg");
+body {
+    background: url('../assets/image/bg/Main.jpeg') center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
-.superhero{
-    height: auto;
-    background: url("../assets/image/bg/Sapideman.webp");
-    background-size: cover;
-}
 
 .movieImage{
     height: auto;
     background-color: black;
     margin: 5px;
-    padding: 5px;   
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.movieImage:hover {
+    transform: scale(1.05); /* Scale the card up */
 }
 
 .images{

@@ -4,6 +4,7 @@ import "./style/landingpage.css";
 import Intro from "./components/Intro";
 import Trending from "./components/Trending";
 import SuperHero from "./components/Superhero";
+import Horor from "./components/Horor";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="superhero">
       <SuperHero/>
+      </div>
+      <div className="horror">
+      <Horor/>
       </div>
     </div>
   );

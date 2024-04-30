@@ -4,13 +4,15 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Globe }  from 'react-feather';
+import { Globe, Home, Calendar, Film }  from 'react-feather';
+
+
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
       <Container fluid>
-        <Navbar.Brand href="#">DUTAFILM</Navbar.Brand>
+      <Navbar.Brand href="#" style={{ fontFamily: 'Bebas Neue' }}>DUTAFILM</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,23 +20,17 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
+            <div className="home"><Home /></div>
             <Nav.Link href="#action1">Home</Nav.Link>
+            <div className="film"><Film /></div>
+
             <NavDropdown title="Genre" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Romance</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Horror</NavDropdown.Item>
-              <NavDropdown.Item href="#action5">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action6">Familiy</NavDropdown.Item>
-              <NavDropdown.Item href="#action7">Drama</NavDropdown.Item>
-              <NavDropdown.Item href="#action8">Comedy</NavDropdown.Item>
-              <NavDropdown.Item href="#action9">Thriller</NavDropdown.Item>
-              <NavDropdown.Item href="#action10">Fantasy</NavDropdown.Item>
-              <NavDropdown.Item href="#action11">Adventure</NavDropdown.Item>
-              <NavDropdown.Item href="#action12">Animation</NavDropdown.Item>
-              <NavDropdown.Item href="#action13">Crime</NavDropdown.Item>
-              <NavDropdown.Item href="#action14">Science Fiction</NavDropdown.Item>
-              <NavDropdown.Item href="#action15">Mystery</NavDropdown.Item>
+              <NavDropdown.Item href="/trending-movies">Trending</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">SuperHero</NavDropdown.Item>
+              <NavDropdown.Item href="#action5">Hororr</NavDropdown.Item>
             </NavDropdown>
-            <Globe size={20} />
+
+            <div className="globe"><Globe /></div>
 
             <NavDropdown title="Negara" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Indonesia</NavDropdown.Item>
@@ -47,6 +43,9 @@ function NavScrollExample() {
               <NavDropdown.Item href="#action10">China</NavDropdown.Item>
               <NavDropdown.Item href="#action11">India</NavDropdown.Item>
             </NavDropdown>
+
+
+            <div className="calendar"><Calendar /></div>
             <NavDropdown title="Tahun" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">2000</NavDropdown.Item>
               <NavDropdown.Item href="#action4">2001</NavDropdown.Item>
