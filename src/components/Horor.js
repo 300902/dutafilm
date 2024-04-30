@@ -1,10 +1,10 @@
 import { Card, Container, Row, Col, Image } from 'react-bootstrap';
-import mangkujiwoImage from '../assets/image/horor/Mangkujiwo.jpg';
-import danurImage from '../assets/image/horor/Danur.jpg';
-import ghibahImage from '../assets/image/horor/Ghibah.jpg';
-import penjamuaniblisImage from '../assets/image/horor/Penjamuaniblis.jpg';
-import sewudinoImage from '../assets/image/horor/Sewudino.jpg';
-import siksakuburImage from '../assets/image/horor/Siksakubur.jpg';
+import mangkujiwoImage from '../assets/image/horor/it.jpg';
+import danurImage from '../assets/image/horor/danur.jpg';
+import ghibahImage from '../assets/image/horor/ghibah.jpg';
+import penjamuaniblisImage from '../assets/image/horor/midsommar.jpg';
+import sewudinoImage from '../assets/image/horor/exorcist.jpg';
+import siksakuburImage from '../assets/image/horor/conjuring.jpg';
 
 
 const Horor = () => {

@@ -8,11 +8,12 @@ import { Globe, Home, Calendar, Film }  from 'react-feather';
 
 
 
+
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
       <Container fluid>
-      <Navbar.Brand href="#" style={{ fontFamily: 'Bebas Neue' }}>DUTAFILM</Navbar.Brand>
+      <Navbar.Brand href="/" style={{ fontFamily: 'Bebas Neue' }}>DUTAFILM</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -21,13 +22,13 @@ function NavScrollExample() {
             navbarScroll
           >
             <div className="home"><Home /></div>
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <div className="film"><Film /></div>
 
             <NavDropdown title="Genre" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/trending-movies">Trending</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">SuperHero</NavDropdown.Item>
-              <NavDropdown.Item href="#action5">Hororr</NavDropdown.Item>
+              <NavDropdown.Item href="#trending">Trending</NavDropdown.Item>
+              <NavDropdown.Item href="#superhero">SuperHero</NavDropdown.Item>
+              <NavDropdown.Item href="#horror">Horor</NavDropdown.Item>
             </NavDropdown>
 
             <div className="globe"><Globe /></div>

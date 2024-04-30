@@ -1,8 +1,8 @@
 import { Card, Container, Row, Col, Image } from 'react-bootstrap';
 import agaklaenImage from '../assets/image/trending/AgakLaen.jpeg';
-import dilanaImage from '../assets/image/trending/Dilan1990.jpg';
-import dilaniImage from '../assets/image/trending/Dilan1991.jpg';
-import kknImage from '../assets/image/trending/KKN.jpg';
+import dilanaImage from '../assets/image/trending/Dilan1990.jpeg';
+import dilaniImage from '../assets/image/trending/Dilan1991.jpeg';
+import kknImage from '../assets/image/trending/KKN.jpeg';
 import pengabdisetanImage from '../assets/image/trending/PengabdiSetan2.jpeg';
 import warkopdkiImage from '../assets/image/trending/WarkopDKI.jpeg';
 

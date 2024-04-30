@@ -1,10 +1,10 @@
 import { Card, Container, Row, Col, Image } from 'react-bootstrap';
-import antmanImage from '../assets/image/super hero/AntMan.jpeg';
-import avengersImage from '../assets/image/super hero/Avengers.webp';
+import antmanImage from '../assets/image/super hero/deadpool.jpg';
+import avengersImage from '../assets/image/super hero/avengers.jpg';
 import garudaImage from '../assets/image/super hero/Garuda.jpeg';
 import shangciImage from '../assets/image/super hero/ShangCi.jpg';
-import spidermanImage from '../assets/image/super hero/Spiderman.jpeg';
-import sriasihImage from '../assets/image/super hero/SriAsih.jpeg';
+import spidermanImage from '../assets/image/super hero/Spiderman.jpg';
+import sriasihImage from '../assets/image/super hero/ironman.jpg';
 
 
 const SuperHero = () => {
