@@ -108,7 +108,7 @@ const SuperHero = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={"/assets/image/super hero/spiderman.jpg"}
+                src={"/assets/image/super hero/Spiderman.jpg"}
                 alt="Agaklaen Movies"
                 className="images"
               />
