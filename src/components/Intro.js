@@ -23,10 +23,29 @@ function ControlledCarousel() {
                 src={gambar1Image}
                 alt="First slide"
               />
-              <Carousel.Caption style={{ textAlign: 'left', top: '60%', transform: 'translateY(-50%)' }}>
-                <h3>First slide label</h3>
+              <Carousel.Caption
+                style={{
+                  textAlign: "left",
+                  top: "60%",
+                  transform: "translateY(-50%)",
+                }}
+              >
+                <h3>Marvel Avengers</h3>
                 <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Ketika musuh yang tak terduga muncul, mengancam keselamatan
+                  dan keamanan dunia, Nick Fury, direktur Badan Perdamaian
+                  Internasional, dikenal sebagai S.H.I.E.L.D. , membutuhkan tim
+                  untuk menyelamatkan dunia dari bencana. Usaha perekrutan pun
+                  dimulai Iron Man, Captain America, Hulk, Thor, Black Widow dan
+                  Hawkeye dikumpulkan untuk menaklukkan Dewa Kehancuran, Loki,
+                  dalam usahanya menghancurkan bumi. Dengan semua gabungan
+                  kekuatan, tugas nampak lebih mudah. Namun kenyatannya tidak
+                  demikian! Para pahlawan super justru saling melawan satu sama
+                  lain Hulk melawan Captain America, siapa yang akan menang?
+                  Apakah Iron Man dapat mengalahkan kekuatan super milik Thor?
+                  Bagaimana para pahlawan super ini secara bersama-sama
+                  menghadapi bencana, melindungi masyarakat dan yang terpenting,
+                  bertahan hidup?
                 </p>
                 <Button variant="primary">Play</Button>
               </Carousel.Caption>
@@ -37,10 +56,17 @@ function ControlledCarousel() {
                 src={gambar2Image}
                 alt="Second slide"
               />
-              <Carousel.Caption style={{ textAlign: 'left', top: '60%', transform: 'translateY(-50%)' }}>
-                <h3>First slide label</h3>
+              <Carousel.Caption
+                style={{
+                  textAlign: "left",
+                  top: "60%",
+                  transform: "translateY(-50%)",
+                }}
+              >
+                <h3>A Quite Place</h3>
                 <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Sebuah keluarga hidup dalam ketakutan. Mereka berusaha harus
+                  hidup dalam keheningan agar terhindar dari mahluk misterius.
                 </p>
                 <Button variant="primary">Play</Button>
               </Carousel.Caption>
@@ -51,10 +77,19 @@ function ControlledCarousel() {
                 src={gambar3Image}
                 alt="Third slide"
               />
-              <Carousel.Caption style={{ textAlign: 'left', top: '60%', transform: 'translateY(-50%)' }}>
-                <h3>First slide label</h3>
+              <Carousel.Caption
+                style={{
+                  textAlign: "left",
+                  top: "60%",
+                  transform: "translateY(-50%)",
+                }}
+              >
+                <h3>The Amazing Spiderman-2</h3>
                 <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Peter Parker beraksi memerangi kejahatan sebagai sosok
+                  Spider-Man di Manhattan. Oscorp, milik sahabat masa kecilnya,
+                  Harry Osborn, mulai melepaskan musuh-musuh rekayasa genetika
+                  untuk menyerangnya.
                 </p>
                 <Button variant="primary">Play</Button>
               </Carousel.Caption>
@@ -65,10 +100,19 @@ function ControlledCarousel() {
                 src={gambar4Image}
                 alt="Third slide"
               />
-              <Carousel.Caption style={{ textAlign: 'left', top: '60%', transform: 'translateY(-50%)' }}>
-                <h3>First slide label</h3>
+              <Carousel.Caption
+                style={{
+                  textAlign: "left",
+                  top: "60%",
+                  transform: "translateY(-50%)",
+                }}
+              >
+                <h3>Batman vs Superman</h3>
                 <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  Bruce Wayne menganggap Superman sebagai ancaman bagi umat
+                  manusia - karena kekuatannya tak terkendali. Ia pun memutuskan
+                  untuk melindungi dunia dan melawannya - dari balik sosok
+                  superhero Batman.
                 </p>
                 <Button variant="primary">Play</Button>
               </Carousel.Caption>
