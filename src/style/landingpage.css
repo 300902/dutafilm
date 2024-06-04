@@ -60,7 +60,7 @@
 }
 
 body {
-    background: url('../assets/image/bg/Main.jpeg') center fixed; 
+    background: url('/public/assets/image/bg/Main.jpeg') center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

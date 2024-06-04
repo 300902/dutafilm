@@ -1,10 +1,4 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
-import antmanImage from "../assets/image/super hero/deadpool.jpg";
-import avengersImage from "../assets/image/super hero/avengers.jpg";
-import garudaImage from "../assets/image/super hero/Garuda.jpeg";
-import shangciImage from "../assets/image/super hero/ShangCi.jpg";
-import spidermanImage from "../assets/image/super hero/Spiderman.jpg";
-import sriasihImage from "../assets/image/super hero/ironman.jpg";
 
 const SuperHero = () => {
   return (
@@ -17,7 +11,7 @@ const SuperHero = () => {
           <Col md={4} className="movieWrapper" id="superhero">
             <Card className="movieImage">
               <Image
-                src={antmanImage}
+                src={"/assets/image/super hero/deadpool.jpg"}
                 alt="Agaklaen Movies"
                 className="images"
               />
@@ -41,7 +35,7 @@ const SuperHero = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={avengersImage}
+                src={"/assets/image/super hero/avengers.jpg"}
                 alt="Agaklaen Movies"
                 className="images"
               />
@@ -66,7 +60,7 @@ const SuperHero = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={garudaImage}
+                src={"/assets/image/super hero/Garuda.jpeg"}
                 alt="Agaklaen Movies"
                 className="images"
               />
@@ -92,7 +86,7 @@ const SuperHero = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={shangciImage}
+                src={"/assets/image/super hero/ShangCi.jpg"}
                 alt="Agaklaen Movies"
                 className="images"
               />
@@ -114,7 +108,7 @@ const SuperHero = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={spidermanImage}
+                src={"/assets/image/super hero/spiderman.jpg"}
                 alt="Agaklaen Movies"
                 className="images"
               />
@@ -137,7 +131,7 @@ const SuperHero = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={sriasihImage}
+                src={"/assets/image/super hero/ironman.jpg"}
                 alt="Agaklaen Movies"
                 className="images"
               />

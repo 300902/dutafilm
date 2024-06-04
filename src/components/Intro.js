@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Carousel, Container, Row, Col, Button } from "react-bootstrap";
-import gambar1Image from "../assets/image/carousels/gambar1.jpg";
-import gambar2Image from "../assets/image/carousels/gambar2.jpg";
-import gambar3Image from "../assets/image/carousels/gambar3.jpg";
-import gambar4Image from "../assets/image/carousels/gambar4.jpg";
+// import gambar1Image from "../assets/image/carousels/gambar1.jpg";
+// import gambar2Image from "../assets/image/carousels/gambar2.jpg";
+// import gambar3Image from "../assets/image/carousels/gambar3.jpg";
+// import gambar4Image from "../assets/image/carousels/gambar4.jpg";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -20,7 +20,7 @@ function ControlledCarousel() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={gambar1Image}
+                src={"/assets/image/carousels/gambar1.jpg"}
                 alt="First slide"
               />
               <Carousel.Caption
@@ -53,7 +53,7 @@ function ControlledCarousel() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={gambar2Image}
+                src={"/assets/image/carousels/gambar2.jpg"}
                 alt="Second slide"
               />
               <Carousel.Caption
@@ -74,7 +74,7 @@ function ControlledCarousel() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={gambar3Image}
+                src={"/assets/image/carousels/gambar3.jpg"}
                 alt="Third slide"
               />
               <Carousel.Caption
@@ -97,7 +97,7 @@ function ControlledCarousel() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={gambar4Image}
+                src={"/assets/image/carousels/gambar4.jpg"}
                 alt="Third slide"
               />
               <Carousel.Caption

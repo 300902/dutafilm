@@ -1,10 +1,10 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
-import mangkujiwoImage from "../assets/image/horor/it.jpg";
-import danurImage from "../assets/image/horor/danur.jpg";
-import ghibahImage from "../assets/image/horor/ghibah.jpg";
-import penjamuaniblisImage from "../assets/image/horor/midsommar.jpg";
-import sewudinoImage from "../assets/image/horor/exorcist.jpg";
-import siksakuburImage from "../assets/image/horor/conjuring.jpg";
+// import mangkujiwoImage from "../assets/image/horor/it.jpg";
+// import danurImage from "../assets/image/horor/danur.jpg";
+// import ghibahImage from "../assets/image/horor/ghibah.jpg";
+// import penjamuaniblisImage from "../assets/image/horor/midsommar.jpg";
+// import sewudinoImage from "../assets/image/horor/exorcist.jpg";
+// import siksakuburImage from "../assets/image/horor/conjuring.jpg";
 
 const Horor = () => {
   return (
@@ -17,7 +17,7 @@ const Horor = () => {
           <Col md={4} className="movieWrapper" id="horror">
             <Card className="movieImage">
               <Image
-                src={mangkujiwoImage}
+                src={"/assets/image/horor/it.jpg"}
                 alt="Mangkujiwo Movies"
                 className="images"
               />
@@ -41,7 +41,7 @@ const Horor = () => {
           </Col>
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
-              <Image src={danurImage} alt="Danur Movies" className="images" />
+            <Image src={"/assets/image/horor/danur.jpg"} alt="Danur Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Hereditary</Card.Title>
@@ -61,7 +61,7 @@ const Horor = () => {
           </Col>
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
-              <Image src={ghibahImage} alt="Ghibah Movies" className="images" />
+              <Image src={"/assets/image/horor/ghibah.jpg"} alt="Ghibah Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Insidious</Card.Title>
@@ -81,7 +81,7 @@ const Horor = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={penjamuaniblisImage}
+                src={"/assets/image/horor/midsommar.jpg"}
                 alt="Penjamuaniblis Movies"
                 className="images"
               />
@@ -106,7 +106,7 @@ const Horor = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={sewudinoImage}
+                src={"/assets/image/horor/exorcist.jpg"}
                 alt="Sewudino Movies"
                 className="images"
               />
@@ -129,7 +129,7 @@ const Horor = () => {
           <Col md={4} className="movieWrapper">
             <Card className="movieImage">
               <Image
-                src={siksakuburImage}
+                src={"/assets/image/horor/conjuring.jpg"}
                 alt="Siksakubur Movies"
                 className="images"
               />
